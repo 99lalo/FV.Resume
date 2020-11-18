@@ -1,0 +1,187 @@
+body{
+    background-color: black;
+}
+h1{
+    color: black;
+}
+#whole{
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Roboto', sans-serif;
+    width: 800px;
+    height: 1000px;
+    font-size: small;
+    position:absolute;
+    left: 35%;
+    
+}
+#top{
+    background-color: rgb(232, 243, 247);
+    color:gray;
+    display: flex;
+    flex-flow: row;
+    width: inherit;
+    height: 175px;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#first{
+    width:  400px;
+    height: inherit;
+}
+#last{
+    height: inherit;
+    font-family: 'Roboto Mono', monospace;
+}
+#middle{
+    background-color:white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: inherit;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#skills{
+    display:flex;
+    flex-flow: row;
+}
+#bot{
+    background-color: rgb(232, 243, 247);
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+    width: inherit;
+    height: 70px;
+    color:gray;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#r{
+    font-family: 'Roboto Mono', monospace;
+}
+h3, #sans{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#where{
+    color:rgb(119, 156, 204);
+}
+.boxes{
+    color: white;
+    background-color: rgb(118, 162, 202);
+    border-radius: 10%;
+    margin-left: 10px;
+    padding: 2px;
+    position: relative;
+    bottom: 15px;
+}
+.back{
+    font-family: 'Roboto', sans-serif;
+    list-style-type:disc;
+}
+.middleb{
+    width: 400px;
+}
+.vl {
+  border-left: 1px solid gray;
+  height: 600px;
+  position:absolute;
+  left: 452px;
+  top: 325px;
+}
+.lv{
+  border-left: 1px solid gray;
+  height: 313px;
+  position: absolute;
+  left: 52px;
+  top: 515px;
+}
+.av{
+  border-left: 1px solid gray;
+  height: 10px;
+  position: relative;
+  left: 50%;
+  bottom: 10px;
+}
+#watson{
+    position:relative;
+    bottom: 10px;
+}
+.first{
+    color: gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    height: 100px;
+    widows: 100px;
+    top: 481px;
+    left: 20px;
+    font-size: smaller;
+}
+.second{
+    color: gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    height: 100px;
+    widows: 100px;
+    top: 630px;
+    left: 20px;
+    font-size: smaller;
+}
+.third{
+    color: gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    height: 100px;
+    widows: 100px;
+    top: 730px;
+    left: 20px;
+    font-size: smaller;
+}
+.fourth{
+    color: gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    height: 100px;
+    widows: 100px;
+    top: 300px;
+    left: 420px;
+    font-size: smaller;
+}
+.fifth{
+    color: gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    height: 100px;
+    widows: 100px;
+    top: 575px;
+    left: 420px;
+    font-size: smaller;
+}
+.sixth{
+    color: gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    height: 100px;
+    widows: 100px;
+    top: 800px;
+    left: 420px;
+    font-size: smaller;
+}
+#p{
+    position: relative;
+    bottom: 20px;
+}
